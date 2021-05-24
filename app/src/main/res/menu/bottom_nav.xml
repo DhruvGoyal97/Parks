@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Maps_navbutton"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/map"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/parks_info"
+        android:icon="@drawable/ic_baseline_amp_stories_24"
+        app:showAsAction="ifRoom"
+        android:title="@string/parks" />
+</menu>
